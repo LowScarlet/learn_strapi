@@ -1,0 +1,8 @@
+{
+  "github": {
+      "silent": true
+  },
+  "version": 2,
+  "routes": [{ "src": "(.*)", "dest": "dist/src/index.js" }],
+  "regions": ["sin1"]
+}
