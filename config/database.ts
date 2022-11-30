@@ -9,5 +9,8 @@ export default ({ env }) => ({
       password: env('DATABASE_PASSWORD', 'HYWTqeyZpyC0mvMVvtCIRZ5LVHn5SDsl'),
       ssl: env.bool('DATABASE_SSL', false),
     },
+    pool: {
+      max: 4
+    }
   },
 });
